@@ -1,0 +1,15 @@
+{
+  "name": "alfred-emmet",
+  "version": "1.0.0",
+  "description": "alfred emmet workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rhythm191",
+  "license": "MIT",
+  "devDependencies": {
+    "alfy": "^0.9.1",
+    "emmet": "^2.0.0-rc.10"
+  }
+}
