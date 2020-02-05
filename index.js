@@ -4,9 +4,10 @@ const expand = require('emmet').default;
 const source = alfy.input;
 
 try {
+  const title = expand(source, { options: { 'output.format': false }});
   const text = expand(source);
   alfy.output([{
-    title: text,
+    title: title,
     arg: text
   }]);
 } catch {
