@@ -9,7 +9,7 @@
   },
   "author": "rhythm191",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "alfy": "^0.9.1",
     "emmet": "^2.0.0-rc.10"
   }
