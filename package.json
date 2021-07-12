@@ -11,10 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/rhythm191/alfred-emmet.git"
   },
-  "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com/"
-  },
   "author": "rhythm191",
   "license": "MIT",
   "bugs": {
