@@ -7,8 +7,20 @@
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhythm191/alfred-emmet.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "rhythm191",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhythm191/alfred-emmet/issues"
+  },
+  "homepage": "https://github.com/rhythm191/alfred-emmet#readme",
   "dependencies": {
     "alfy": "^0.9.1",
     "emmet": "^2.0.0-rc.10"
